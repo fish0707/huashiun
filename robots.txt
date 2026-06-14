@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fish0707.github.io/huashiun/sitemap.xml
