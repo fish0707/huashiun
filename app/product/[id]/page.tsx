@@ -37,7 +37,7 @@ export default function ProductDetailPage() {
   }, [id])
 
   const allPhotos = product
-    ? [product.cover_image, ...(product.photos || [])].filter(Boolean)
+    ? [product.cover_image, ...(product.photos || [])].filter((p): p is string => Boolean(p))
     : []
 
   const lineUrl = product

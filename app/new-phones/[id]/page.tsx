@@ -24,7 +24,7 @@ export default function NewPhoneDetailPage() {
       })
   }, [id])
 
-  const allPhotos = phone ? [phone.cover_image, ...(phone.photos || [])].filter(Boolean) : []
+  const allPhotos = phone ? [phone.cover_image, ...(phone.photos || [])].filter((p): p is string => Boolean(p)) : []
 
   const lineUrl = phone
     ? `https://line.me/R/ti/p/@306cvtwi?text=${encodeURIComponent(
