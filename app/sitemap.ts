@@ -21,13 +21,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `https://huashiun.vercel.app/new-phones/${p.id}`,
     lastModified: new Date(p.created_at),
     changeFrequency: 'weekly',
-    priority: 0.8,
+    priority: 0.7,
   }))
 
   return [
-    { url: 'https://huashiun.vercel.app', lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
-    { url: 'https://huashiun.vercel.app/new-phones', lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
-    { url: 'https://huashiun.vercel.app/plans', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    {
+      url: 'https://huashiun.vercel.app',
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1,
+    },
+    {
+      url: 'https://huashiun.vercel.app/new-phones',
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'https://huashiun.vercel.app/plans',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     ...productUrls,
     ...newPhoneUrls,
   ]

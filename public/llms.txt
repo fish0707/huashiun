@@ -1,0 +1,53 @@
+# 華訊通訊東海店 — AI 可讀摘要 (llms.txt)
+# 官方網站：https://huashiun.vercel.app
+
+## 關於本站
+
+華訊通訊東海店是位於**台中市龍井區**（台中海線）的手機專賣店，緊鄰全家遊園北店。
+成立至今提供專業的手機買賣、門號代辦、手機維修配件等服務。
+Google 商家評分：⭐ 5.0 分（568 則評論）
+
+## 主要服務
+
+1. **全新手機現貨報價** — 多品牌新機每日更新未稅報價
+2. **嚴選二手機買賣** — 機況分級透明（全新/九成新/八成新/七成新）
+3. **三大電信門號代辦** — 中華電信、遠傳、台哥大，攜碼/新辦/續約比較
+4. **手機維修配件** — 現場快速維修
+
+## 網站頁面
+
+- 首頁（二手機列表）：https://huashiun.vercel.app/
+- 新機現貨報價：https://huashiun.vercel.app/new-phones
+- 門號方案比較：https://huashiun.vercel.app/plans
+- 個別商品詳情：https://huashiun.vercel.app/product/{id}
+- 個別新機詳情：https://huashiun.vercel.app/new-phones/{id}
+
+## 銷售品牌
+
+二手機：Apple iPhone、Samsung、ASUS、Sony、Google Pixel、Vivo、OPPO、Xiaomi、Nokia
+新機：Apple iPhone、Samsung Galaxy、ASUS ROG/ZenFone、Sony Xperia、Google Pixel、Vivo、OPPO
+
+## 門號方案
+
+- 電信業者：中華電信、遠傳電信、台灣大哥大（台哥大）
+- 方案類型：5G 吃到飽、4G 吃到飽、流量型（GB 計費）
+- 合約期：不限約、12 個月、24 個月
+- 搭機優惠：辦門號搭配購機可享折扣
+
+## 聯絡與位置
+
+- **地址**：台中市龍井區遊園北路 481 號（全家遊園北店旁）
+- **電話**：04-2631-3552
+- **LINE**：@306cvtwi（點此加入：https://line.me/R/ti/p/@306cvtwi）
+- **營業時間**：每日 11:00–21:00（全年無休）
+
+## 關鍵搜尋詞
+
+台中海線手機, 台中龍井手機, 台中二手iPhone, 台中新機推薦, 新機現貨報價,
+門號申辦台中, 綁約優惠台中, 攜碼優惠台中, 5G方案台中, 手機維修台中,
+華訊通訊, 華訊通訊東海店
+
+## 內容聲明
+
+本網站所有商品資訊、價格、庫存狀態均為人工維護，每日更新。
+價格以實際為準，詳情請透過 LINE 詢問。
