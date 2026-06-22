@@ -23,6 +23,35 @@ export type Product = {
   created_at: string
 }
 
+export type NewPhone = {
+  id: string
+  name: string
+  brand: string
+  storage: string | null
+  color: string | null
+  price: number
+  is_available: boolean
+  in_stock?: boolean
+  created_at: string
+}
+
+export type Plan = {
+  id: string
+  carrier: string
+  plan_name: string
+  monthly_fee: number
+  contract_months: number
+  data_gb: number | null
+  is_unlimited: boolean
+  speed_limit: string | null
+  call_minutes: string | null
+  bonus: string | null
+  tag: string | null
+  is_active: boolean
+  sort_order: number
+  created_at: string
+}
+
 export type Inquiry = {
   id: string
   product_id: string
