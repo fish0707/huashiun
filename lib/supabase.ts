@@ -30,14 +30,20 @@ export type NewPhone = {
   storage: string | null
   color: string | null
   price: number
+  original_price: number | null
+  description: string | null
+  cover_image: string | null
+  photos: string[]
   is_available: boolean
   in_stock?: boolean
+  is_featured: boolean
+  views: number
   created_at: string
 }
 
 export type Plan = {
   id: string
-  carrier: string
+  carrier: '中華電信' | '遠傳' | '台哥大'
   plan_name: string
   monthly_fee: number
   contract_months: number
