@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F5F0;
+  color: #0D0D0D;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #F7F5F0; }
+::-webkit-scrollbar-thumb { background: #C8A96E; border-radius: 2px; }
+
+/* ── Status badges ── */
+.badge-available {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full bg-green-50 text-green-700 border border-green-200;
+}
+.badge-reserved {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full bg-amber-50 text-amber-700 border border-amber-200;
+}
+.badge-sold {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full bg-gray-100 text-gray-500 border border-gray-200;
+}
+
+/* ── Product card hover ── */
+.product-card {
+  @apply bg-white border border-border rounded-2xl overflow-hidden transition-all duration-300;
+}
+.product-card:hover {
+  @apply shadow-lg -translate-y-1;
+}
+
+/* ── Button styles ── */
+.btn-primary {
+  @apply bg-ink text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 hover:bg-accent hover:text-ink active:scale-95;
+}
+.btn-outline {
+  @apply border border-ink text-ink px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 hover:bg-ink hover:text-white active:scale-95;
+}
+.btn-gold {
+  @apply bg-accent text-ink px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 hover:bg-accent-dark active:scale-95;
+}
+
+/* ── Staggered animation ── */
+.stagger-1 { animation-delay: 0.05s; opacity: 0; }
+.stagger-2 { animation-delay: 0.10s; opacity: 0; }
+.stagger-3 { animation-delay: 0.15s; opacity: 0; }
+.stagger-4 { animation-delay: 0.20s; opacity: 0; }
+.stagger-5 { animation-delay: 0.25s; opacity: 0; }
+.stagger-6 { animation-delay: 0.30s; opacity: 0; }
+.animate-start .stagger-1,
+.animate-start .stagger-2,
+.animate-start .stagger-3,
+.animate-start .stagger-4,
+.animate-start .stagger-5,
+.animate-start .stagger-6 {
+  animation: fadeUp 0.5s ease forwards;
+}
